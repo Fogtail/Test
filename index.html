@@ -1,162 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Frugal</title>
-		
-		<!-- CSS code -->
-		<style>
-			img {
-				width: 500px;
-				height: 400px;
-				margin-bottom: 40%;
-				border-radius: 500px;
-				padding: 5%;
-				}
-				
-			#Subheadings {
-				color: aliceblue;
-				font-size: 150px;
-			  }
-			  
-			#images{
-				text-align: center;
-				margin-top: 20%;
-				margin-left: 5%;
-			}
-			
-			h1{
-				
-				font-size: 50px;
-				color: black;
-				text-align: center;
-			}
-			
-			#title{
-				border-style: outset;
-				border-width: 50px;
-				border-color: black gray;
-				background-color: #c98a99;
-			}
-			
-			#fruit{
-				background-color: gray;
-				border-style: solid;
-				position: relative;
-				left: 20%;
-				height: 8000px;
-				width: 1200px;
-			}
-			
-			body{
-				background-image: url("images/fruit1.jpg");
-				background-attachment: fixed;
-				height:0px;
-			}
-			
-			#info{
-				font-size:30px;
-				text-align: center;
-				color: white;
-				background-color: gray;
-				width: 19.5%;
-				height: 600px;
-				position: relative; top:-8006px;
-				border-style: double;
-				border-color: black;
-				border-width: 5px;
-			}
-			
-			.child{
-				color: white;
-				background-image: url("images/bb.jpg");
-				background-size: cover;
-				font-size:50px;
-			}
-			
-			a:hover {
-				color: blueviolet;
-			}
-			
-			#highlight{
-				color:#c5bb31;
-			}
-			
-			#text1{
-				margin-left: 13%;
-				color: #83cf55;
-			}
-			
-		</style>
-	</head>
-	
-	<body>
-		<div id="title">
-			<h1><strong>------> <em> Welcome to Frugal's fruit Market! </em> <------ </strong></h1>
-		</div>
-		
-		<!-- Products that are displayed -->
-		<div id="fruit" class="parent">
-			<div class="child">
-				<p>Are you a frugal person?? <br>
-				Well look no further, becuase at frugals<br> 
-				market you get the <em id="highlight">BEST DEALS</em><br>
-				at the <em id="highlight">LOWEST PRICES</em>!</p><br>
-				<p>So come now while stocks last we sell a varity of fruits you can choose from!</p>
-				<br>
-				<strong><p id="text1">Lets eat healthy and be nutrition wealthy!</p></strong>
-			</div>
-			
-			<form action="POST" id="images">
-				<section id="Apples">
-					<label id="Subheadings">Apple's</label>
-					<br />
-					<img src="images/apple.jpg" alt="Apple image" />
-					
-				</section>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Frugal</title>
 
-				<section id="Strawberrys">
-					<label id="Subheadings">Strawbery's</label>
-					<br />
-					<img src="images/strawberry.jpg" alt="Strawberry image" />
-				</section>
+    <!-- CSS code -->
+    <style>
+      img {
+        width: 500px;
+        height: 400px;
+        margin-bottom: 40%;
+        border-radius: 500px;
+        padding: 5%;
+      }
 
-				<section id="Bananas">
-					<label id="Subheadings">Banana's</label>
-					<br />
-					<img src="images/banana.jpg" alt="Strawberry image" />
-				</section>
+      #Subheadings {
+        color: aliceblue;
+        font-size: 150px;
+      }
 
-				<section id="Oranges">
-				   <label id="Subheadings">Oranges's</label>
-				   <br />
-				   <img src="images/orange.JPG" alt="Strawberry image" />
-				</section>
+      #images {
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 5%;
+      }
 
-			    <section id="Peaches">
-					<label id="Subheadings">Peach's</label>
-					<br />
-					<img src="images/peach.jpg" alt="Strawberry image" />
-			    </section>
+      h1 {
+        font-size: 50px;
+        color: red;
+        text-align: center;
+      }
 
-				<section id="Watermelons">
-					<label id="Subheadings">watermelon's</label>
-					<br />
-					<img src="images/watermelon.jpg" alt="Strawberry image" />
-				</section>
-			</form>
-		</div>
-		
-		<!-- links and extra information about porducts -->
-		<div id="info" >
-			<h2>fruits:</h2>
-			<hr color= "black">
-			<a href="#Apples">Apple's</a><br><br>
-			<a href="#Strawberrys">Strawberry's</a><br><br>
-			<a href="#Bananas">Bannana's</a><br><br>
-			<a href="#Oranges">Orange's</a><br><br>
-			<a href="#Peaches">Peach's</a><br><br>
-			<a href="#Watermelons">Watermelon's</a>
-		</div>
-	</body>
+      #title {
+        border-style: outset;
+        border-width: 50px;
+        border-color: black gray;
+        background-color: #c98a99;
+      }
+
+      #fruit {
+        background-color: gray;
+        border-style: solid;
+        position: relative;
+        left: 20%;
+        height: 8000px;
+        width: 1200px;
+      }
+
+      body {
+        background-image: url("images/fruit1.jpg");
+        background-attachment: fixed;
+        height: 0px;
+      }
+
+      #info {
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        background-color: gray;
+        width: 19.5%;
+        height: 600px;
+        position: relative;
+        top: -8006px;
+        border-style: double;
+        border-color: black;
+        border-width: 5px;
+      }
+
+      .child {
+        color: white;
+        background-image: url("images/bb.jpg");
+        background-size: cover;
+        font-size: 50px;
+      }
+
+      a:hover {
+        color: blueviolet;
+      }
+
+      #highlight {
+        color: #c5bb31;
+      }
+
+      #text1 {
+        margin-left: 13%;
+        color: #83cf55;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="title">
+      <h1>
+        <strong
+          >------> <em> Welcome to Frugal's fruit Market! </em> <------
+        </strong>
+      </h1>
+    </div>
+
+    <!-- Products that are displayed -->
+    <div id="fruit" class="parent">
+      <div class="child">
+        <p>
+          Are you a frugal person?? <br />
+          Well look no further, becuase at frugals<br />
+          market you get the <em id="highlight">BEST DEALS</em><br />
+          at the <em id="highlight">LOWEST PRICES</em>!
+        </p>
+        <br />
+        <p>
+          So come now while stocks last we sell a varity of fruits you can
+          choose from!
+        </p>
+        <br />
+        <strong
+          ><p id="text1">Lets eat healthy and be nutrition wealthy!</p></strong
+        >
+      </div>
+
+      <form action="POST" id="images">
+        <section id="Apples">
+          <label id="Subheadings">Apple's</label>
+          <br />
+          <img src="images/apple.jpg" alt="Apple image" />
+        </section>
+
+        <section id="Strawberrys">
+          <label id="Subheadings">Strawbery's</label>
+          <br />
+          <img src="images/strawberry.jpg" alt="Strawberry image" />
+        </section>
+
+        <section id="Bananas">
+          <label id="Subheadings">Banana's</label>
+          <br />
+          <img src="images/banana.jpg" alt="Strawberry image" />
+        </section>
+
+        <section id="Oranges">
+          <label id="Subheadings">Oranges's</label>
+          <br />
+          <img src="images/orange.JPG" alt="Strawberry image" />
+        </section>
+
+        <section id="Peaches">
+          <label id="Subheadings">Peach's</label>
+          <br />
+          <img src="images/peach.jpg" alt="Strawberry image" />
+        </section>
+
+        <section id="Watermelons">
+          <label id="Subheadings">watermelon's</label>
+          <br />
+          <img src="images/watermelon.jpg" alt="Strawberry image" />
+        </section>
+      </form>
+    </div>
+
+    <!-- links and extra information about porducts -->
+    <div id="info">
+      <h2>fruits:</h2>
+      <hr color="black" />
+      <a href="#Apples">Apple's</a><br /><br />
+      <a href="#Strawberrys">Strawberry's</a><br /><br />
+      <a href="#Bananas">Bannana's</a><br /><br />
+      <a href="#Oranges">Orange's</a><br /><br />
+      <a href="#Peaches">Peach's</a><br /><br />
+      <a href="#Watermelons">Watermelon's</a>
+    </div>
+  </body>
 </html>
